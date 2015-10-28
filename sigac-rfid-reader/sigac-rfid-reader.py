@@ -5,7 +5,9 @@ import MFRC522
 import requests
 import json
 import signal
+import os
 
+os.system('sudo modprobe spi-bcm2708')
 
 CONTINUE_READING = True
 
